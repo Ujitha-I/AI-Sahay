@@ -1,2 +1,30 @@
-<h1>AI-Sahay Prototype</h1>
-<p>This is the demo interface.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Sahay</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+  
+<body>
+    <header>
+        <h1>AI-Sahay</h1>
+        <p class="subtitle">A simple low-resource AI assistant prototype</p>
+    </header>
+  
+    <main>
+        <div class="chat-box">
+            <div id="output" class="output-area"></div>
+            <textarea id="input" placeholder="Type your question..."></textarea>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Prototype demo · Hackathon build</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
