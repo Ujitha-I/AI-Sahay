@@ -1,0 +1,34 @@
+# AI-Sahay
+
+A multilingual, low-resource AI assistant designed for rural and underserved communities.  
+This prototype focuses on accessibility, offline capability, and safe AI guidance.
+
+## Project Structure
+AI-Sahay/
+├── frontend/
+├── backend/
+├── offline/
+├── datasets/
+├── demo_screenshots/
+├── LICENSE
+
+## Features
+- Multilingual assistance  
+- Offline basic guides  
+- Low-resource friendly  
+- Simple voice/text interactions  
+- Privacy-first anonymous usage
+
+## Demo Video  
+Link:
+
+## Tech Used
+- HTML/CSS/JS  
+- Python
+- Simple rule-based offline engine
+
+## Contributors
+- Team AI-Sahay
+- Ujitha I
+- Arrshia Kareema S
+- Sakthi Sanjana S
