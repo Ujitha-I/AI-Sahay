@@ -1,9 +1,18 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from ai_model import get_response
+import os
 
 app = Flask(__name__)
-CORS(app)  # Allow frontend to talk to backend
+CORS(app)
+
+@app.route('/')
+def index():
+    return send_from_directory('../frontend', 'index.html')
+
+@app.route('/<path:path>')
+def static_files(path):
+    return send_from_directory('../frontend', path)
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -17,4 +26,3 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
