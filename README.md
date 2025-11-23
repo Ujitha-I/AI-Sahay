@@ -20,7 +20,7 @@ AI-Sahay/
 - Privacy-first anonymous usage
 
 ## Demo Video  
-Link:
+Link: https://drive.google.com/file/d/1WyDTsQgvzTuOkBPIyvOQyQJ8Ynq-d4S6/view?usp=sharing
 
 ## Tech Used
 - HTML/CSS/JS  
